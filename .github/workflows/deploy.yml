@@ -41,7 +41,9 @@ jobs:
         curl -v http://localhost:8000
 
     - name: Build Docker image
-      run: docker build -t fatihxbayram/spam-classifier .
+      run: |
+        cd spam_backend || exit 1
+        docker build -t fatihxbayram/spam-classifier .
 
     - name: Login to DockerHub
       run: echo "${{ secrets.DOCKERHUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
