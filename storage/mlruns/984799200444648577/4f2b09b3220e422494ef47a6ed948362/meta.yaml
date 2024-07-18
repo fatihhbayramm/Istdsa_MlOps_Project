@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatihbayram/Documents/deneme/mlproject_final/storage/mlruns/984799200444648577/4f2b09b3220e422494ef47a6ed948362/artifacts
+end_time: 1721164595639
+entry_point_name: ''
+experiment_id: '984799200444648577'
+lifecycle_stage: active
+run_id: 4f2b09b3220e422494ef47a6ed948362
+run_name: run_TF-IDF_Logistic Regression
+run_uuid: 4f2b09b3220e422494ef47a6ed948362
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721164588452
+status: 3
+tags: []
+user_id: fatihbayram

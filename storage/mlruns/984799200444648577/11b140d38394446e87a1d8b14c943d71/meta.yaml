@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatihbayram/Documents/deneme/mlproject_final/storage/mlruns/984799200444648577/11b140d38394446e87a1d8b14c943d71/artifacts
+end_time: 1721164423296
+entry_point_name: ''
+experiment_id: '984799200444648577'
+lifecycle_stage: active
+run_id: 11b140d38394446e87a1d8b14c943d71
+run_name: run_BoW_Logistic Regression
+run_uuid: 11b140d38394446e87a1d8b14c943d71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721164410599
+status: 3
+tags: []
+user_id: fatihbayram

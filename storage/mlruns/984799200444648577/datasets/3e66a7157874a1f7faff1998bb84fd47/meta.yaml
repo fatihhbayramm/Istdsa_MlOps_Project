@@ -1,0 +1,9 @@
+digest: 11e93cd1
+name: data_BoW_Random Forest
+profile: '{"num_rows": 25100, "num_elements": 75300}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "email", "required": true},
+  {"type": "long", "name": "spam", "required": true}, {"type": "long", "name": "ModelOutput",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "fatihbayram", "mlflow.source.name": "/Users/fatihbayram/Documents/deneme/mlproject_final/mlops_project/lib/python3.12/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

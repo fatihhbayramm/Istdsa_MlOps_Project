@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatihbayram/Documents/deneme/mlproject_final/storage/mlruns/984799200444648577/a9fe0529cd2a4aadbdc164db62775271/artifacts
+end_time: 1721164949406
+entry_point_name: ''
+experiment_id: '984799200444648577'
+lifecycle_stage: active
+run_id: a9fe0529cd2a4aadbdc164db62775271
+run_name: run_BoW_XGBoost
+run_uuid: a9fe0529cd2a4aadbdc164db62775271
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721164930607
+status: 3
+tags: []
+user_id: fatihbayram

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatihbayram/Documents/deneme/mlproject_final/storage/mlruns/984799200444648577/ad4d300634454e779615d2c1bb4ce666/artifacts
+end_time: 1721165084378
+entry_point_name: ''
+experiment_id: '984799200444648577'
+lifecycle_stage: active
+run_id: ad4d300634454e779615d2c1bb4ce666
+run_name: run_TF-IDF_Random Forest
+run_uuid: ad4d300634454e779615d2c1bb4ce666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721164964180
+status: 3
+tags: []
+user_id: fatihbayram

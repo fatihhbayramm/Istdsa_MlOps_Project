@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/fatihbayram/Documents/deneme/mlproject_final/storage/mlruns/984799200444648577/c5f77fbab8c84c37bfe9e2256161ce03/artifacts
+end_time: 1721164793008
+entry_point_name: ''
+experiment_id: '984799200444648577'
+lifecycle_stage: active
+run_id: c5f77fbab8c84c37bfe9e2256161ce03
+run_name: run_BoW_Naive Bayes
+run_uuid: c5f77fbab8c84c37bfe9e2256161ce03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721164787176
+status: 3
+tags: []
+user_id: fatihbayram
