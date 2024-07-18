@@ -35,7 +35,7 @@ jobs:
           echo "Directory Istdsa_MlOps_Project/spam_backend/app does not exist."
           exit 1
         fi
-        cd Istdsa_MlOps_Project/spam_backend/app
+        cd Istdsa_MlOps_Project/Istdsa_MlOps_Project/spam_backend/app
         uvicorn server:app --host 0.0.0.0 --port 8000 --reload &
         sleep 10
         curl -v http://localhost:8000
