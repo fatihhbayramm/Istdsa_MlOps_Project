@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.12'
+        python-version: '3.8'
 
     - name: Install dependencies
       run: |
@@ -25,7 +25,8 @@ jobs:
 
     - name: Start FastAPI app and run tests
       run: |
-        uvicorn Istdsa_MlOps_Project.spam_backend.app.server:app --host 0.0.0.0 --port 8000 --reload &
+        cd Istdsa_MlOps_Project/spam_backend/app
+        uvicorn server:app --host 0.0.0.0 --port 8000 --reload &
         sleep 10
         curl -v http://localhost:8000
 
