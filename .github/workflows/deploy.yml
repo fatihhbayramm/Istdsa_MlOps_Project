@@ -31,8 +31,8 @@ jobs:
 
     - name: Start FastAPI app and run tests
       run: |
-        if [ ! -d "Istdsa_MlOps_Project/spam_backend/app" ]; then
-          echo "Directory Istdsa_MlOps_Project/spam_backend/app does not exist."
+        if [ ! -d "Istdsa_MlOps_Project/Istdsa_MlOps_Project/spam_backend/app" ]; then
+          echo "Directory Istdsa_MlOps_Project/Istdsa_MlOps_Project/spam_backend/app does not exist."
           exit 1
         fi
         cd Istdsa_MlOps_Project/Istdsa_MlOps_Project/spam_backend/app
