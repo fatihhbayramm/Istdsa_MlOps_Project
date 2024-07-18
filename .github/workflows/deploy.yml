@@ -13,10 +13,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: List directory contents for debugging
+      run: ls -R
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
@@ -25,13 +28,13 @@ jobs:
 
     - name: Start FastAPI app and run tests
       run: |
-        cd Istdsa_MlOps_Project/spam_backend/app
+        cd Istdsa_MlOps_Project/spam_backend/app || exit 1
         uvicorn server:app --host 0.0.0.0 --port 8000 --reload &
         sleep 10
         curl -v http://localhost:8000
 
     - name: Build Docker image
-      run: docker build -t fatihxbayram/spam-classifier .
+      run: docker build -t atihxbayram/spam-classifier .
 
     - name: Login to DockerHub
       run: echo "${{ secrets.DOCKERHUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
