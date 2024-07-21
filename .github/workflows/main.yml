@@ -49,7 +49,7 @@ jobs:
           PROJECT_ID: ${{ secrets.PROJECT_ID }}
         run: |
           gcloud auth configure-docker us-central1-docker.pkg.dev
-          docker build -t us-central1-docker.pkg.dev/${PROJECT_ID}/fastapi/spam_classifier_image:latest -f spam_backend/app/Dockerfile spam_backend/app
+          docker build -t us-central1-docker.pkg.dev/${PROJECT_ID}/fastapi/spam_classifier_image:latest -f spam_backend/Dockerfile spam_backend
           docker push us-central1-docker.pkg.dev/${PROJECT_ID}/fastapi/spam_classifier_image:latest
 
       - name: Deploy to Cloud Run
