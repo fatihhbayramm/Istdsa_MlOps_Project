@@ -52,8 +52,8 @@ jobs:
           PROJECT_ID: ${{ secrets.PROJECT_ID }}
         run: |
           gcloud auth configure-docker us-central1-docker.pkg.dev
-          docker build -t us-central1-docker.pkg.dev/${PROJECT_ID}/fastapi/spam_classifier_image:latest -f spam_backend/Dockerfile spam_backend
-          docker push us-central1-docker.pkg.dev/${PROJECT_ID}/fastapi/spam_classifier_image:latest
+          docker build -t us-central1-docker.pkg.dev/quantum-vista-425620-f6/fastapi/spam_classifier_image:latest -f spam_backend/Dockerfile spam_backend
+          docker push us-central1-docker.pkg.dev/quantum-vista-425620-f6/fastapi/spam_classifier_image:latest
 
       - name: Deploy to Cloud Run
         run: |
@@ -65,3 +65,6 @@ jobs:
             --max-instances=10 \
             --region=us-central1 \
             --project=${{ secrets.PROJECT_ID }}
+
+
+        
