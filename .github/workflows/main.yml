@@ -59,7 +59,7 @@ jobs:
           gcloud run deploy spam-fastapi \
             --image=us-central1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/mlopsdemo/spam_classifier_image:latest \
             --allow-unauthenticated \
-            --port=8080 \
+            --port=8000 \
             --service-account=${{ secrets.SERVICE_ACCOUNT }} \
             --max-instances=10 \
             --region=us-central1 \
