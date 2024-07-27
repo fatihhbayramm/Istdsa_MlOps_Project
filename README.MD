@@ -46,12 +46,12 @@ Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleye
    git clone https://github.com/fatihhbayramm/Istdsa_MlOps_Project.git
 2. **Gerekli Paketleri Kurun:**
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 3. **Docker Compose ile Çalıştırın:**
    ```bash
-  docker-compose up --build
+   docker-compose up --build
 
 4. **Frontend ve Backend'e Erişin:**
-   ```bash
+ 
     Frontend URL: http://localhost:8501
     Backend URL: http://localhost:8000
